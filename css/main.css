@@ -1,0 +1,98 @@
+.container {
+    display: inline-block;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 30px 60px 60px 60px;
+    background-color: #fff;    
+}
+
+.header {
+    color: blue;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 30px
+}
+
+.input-left,
+.input-right,
+.input-bottom {
+    color: Black;
+    font-weight: normal;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: normal;
+}
+
+.input-left::placeholder,
+.input-right::placeholder,
+.input-bottom::placeholder{
+    color: rgb(0, 0, 189);
+}
+
+.input-left {
+    float: left; 
+    width: 49%;
+    background-color: rgba(0, 0, 255, 0.144);
+    margin-left: 0;
+}
+
+.input-right {
+    float: right;   
+    width: 49%;
+    background-color: rgba(0, 0, 255, 0.144);
+    margin-right: 0;
+}
+
+.input-bottom {
+    float: left; 
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.244);
+    margin-left: 0;
+}
+
+.input-bottom:last-of-type {
+    background-color: rgba(0, 0, 255, 0.344);
+    padding-bottom: 50px;
+}
+
+.btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: rgb(1, 1, 153);
+}
+
+.thanks {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    text-decoration: none;
+    color: rgb(15, 199, 144);
+    font-size: 15px;
+    /* visibility: hidden; */
+}
